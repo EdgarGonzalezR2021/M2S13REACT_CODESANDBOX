@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.mensaje {
+  color: red;
+  text-transform: uppercase;
+}
+
+@media (max-width: 300px) {
+  .mensaje {
+    color: blue;
+    text-transform: lowercase;
+  }
+}
